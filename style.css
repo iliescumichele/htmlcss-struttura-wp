@@ -16,24 +16,23 @@
 
 .container{
   width: 75%;
-  float: center;
-  margin: auto;
+  margin: 0 auto;
 }
 
-header{
+header.container{
   height: 75px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   background-color: #e579e6;
 }
 
 section{
   margin: 20px auto;
-  height: 400px;
+  height: 280px;
   background-color: #e1d67a;
 }
 
-main{
-  height: 475px;
+main.container{
+  margin: 20px auto 10px;
   background-color: #0086ff;
 }
 
@@ -47,7 +46,7 @@ main{
 }
 
 aside{
-  height: 78%;
+  height: 400px;
   width: 20%;
 }
 
@@ -60,13 +59,14 @@ aside{
 }
 
 .col-center{
-  float: center;
-  margin: auto 1%;
-  width: 68%;
+  float: left;
+  margin: auto 1.5%;
+  height: 400px;
+  width: 57%;
+  margin-bottom: 2%;
 }
 
-footer{
-  float: center;
+footer.container{
   height: 40px;
   margin: 10px auto;
   background-color: #8701ff;
